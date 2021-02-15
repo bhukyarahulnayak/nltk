@@ -18,3 +18,19 @@ The main directory consists of four directories
 - model is created using the Word2vec function which is imported from the gensim.models
 - This model has predicted two similar words of same context
 - Visulisation plots (PCA and t-SNE) for most similar words as well as the complete embedding space are done
+
+### Word2vec (skip-gram embedding)
+
+- Skip-gram embedding is implemented using gensim. 
+- Text-Preprocessing and tokenization is done for the training data.
+- Then cleaned data is fed to the model.
+- This model has predicted two similar words of same context
+- Visulisation plots (PCA and t-SNE) for most similar words as well as the complete embedding space are done
+
+### Glove Embedding
+- For Glove Embedding I have loaded a pre-trained model 
+- Made few prediction using that model
+- Visulisation plots (PCA and t-SNE) for most similar words as well as the complete embedding space are done
+
+### CNN
+- To be done
